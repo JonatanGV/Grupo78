@@ -8,7 +8,7 @@ header{
 	border-radius: 0.5em;
 	margin: 20px;
 	max-width: 100%;
-	padding: 0.25em;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -27,18 +27,6 @@ table{
 	text-anchor: "cente";
 }
 
-h2{
-	padding: 5px;
-	color: #000000;
-	margin: 0.1em auto;
-	text-align: center;
-	-webkit-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-ms-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-o-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-moz-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-}
-
 footer{
 	padding: 10px;
 	margin: 20px;
@@ -48,13 +36,30 @@ footer{
 	text-align: center;
 }
 
+h3#h3Index{
+	margin: 0.1em auto;
+	text-align: center;
+}
+
 section#contenedorIndex{
-	padding: 5px;
+	padding: 1px;
 	margin: 20px;
 	background: #FFFFFF;
 	border-radius: 0.5em;
 	max-width: 100%;
 	text-align: center;
+}
+
+h2#h2Index{
+	padding: 5px;
+	color: #000000;
+	margin: 0.1em auto;
+	text-align: center;
+	-webkit-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
+	-ms-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
+	-o-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
+	-moz-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
+	text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
 }
 
 article#textoIndex{
@@ -69,7 +74,7 @@ article#textoIndex{
 }
 
 aside#imagenIndex{
-	padding: 20px;
+	padding: 10px;
 	color: #000000;
 	border-radius: 0.5em;
 	display: inline-block;
