@@ -1,5 +1,12 @@
-body{
+body#index{
 	background: #006680;
+	color: #FFFFFF;
+}
+
+body#modulos{
+	background-image: url('../img/fondo.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
 	color: #FFFFFF;
 }
 
@@ -24,7 +31,6 @@ nav{
 table{
 	border-collapse: collapse;
 	width: 100%;
-	text-anchor: "cente";
 }
 
 footer{
@@ -36,30 +42,28 @@ footer{
 	text-align: center;
 }
 
-h3#h3Index{
+h2{
+	padding: 5px;
+	margin: 0.1em auto;
+	text-align: center;
+	-webkit-text-shadow: 5px 5px 10px rgba(0,102,128,1);
+	-ms-text-shadow: 5px 5px 10px rgba(0,102,128,1);
+	-o-text-shadow: 5px 5px 10px rgba(0,102,128,1);
+	-moz-text-shadow: 5px 5px 10px rgba(0,102,128,1);
+	text-shadow: 5px 5px 10px rgba(0,102,128,1);
+}
+
+h3{
 	margin: 0.1em auto;
 	text-align: center;
 }
 
 section#contenedorIndex{
-	padding: 1px;
-	margin: 20px;
 	background: #FFFFFF;
+	margin: 20px;
 	border-radius: 0.5em;
 	max-width: 100%;
 	text-align: center;
-}
-
-h2#h2Index{
-	padding: 5px;
-	color: #000000;
-	margin: 0.1em auto;
-	text-align: center;
-	-webkit-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-ms-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-o-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	-moz-text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
-	text-shadow: 5px 5px 10px rgba(0,102,128,0.5);
 }
 
 article#textoIndex{
@@ -82,4 +86,40 @@ aside#imagenIndex{
 	max-width: 100%;
 	vertical-align: top;
 	width: 25%;
+}
+
+
+section#contenedor{
+	margin: 20px;
+	border-radius: 0.5em;
+	max-width: 100%;
+	text-align: center;
+}
+
+section#listas{
+	padding: 20px;
+	border-radius: 0.5em;
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+section#contenido{
+	text-align: justify;
+	padding: 40px;
+	border-radius: 0.5em;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	-webkit-text-shadow: 5px 5px 10px rgba(0,0,0,1);
+	-ms-text-shadow: 5px 5px 10px rgba(0,0,0,1);
+	-o-text-shadow: 5px 5px 10px rgba(0,0,0,1);
+	-moz-text-shadow: 5px 5px 10px rgba(0,0,0,1);
+	text-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+img#imagenApoyo{
+	float: left;
+	width: 250px;
+	height: 140px;
 }
